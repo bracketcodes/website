@@ -1,0 +1,26 @@
+.main-nav__items {
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav__item {
+    margin: 1rem;
+    color: white;
+    list-style: none;
+}
+
+.main-nav__item a {
+    color: darkgray;
+    text-decoration: none;
+}
+
+.main-nav__item a:hover {
+    color: white
+}
+
+@media(min-width: 40rem) and (min-height: 400px) {
+    .main-nav__items {
+        display: flex;
+    }
+}

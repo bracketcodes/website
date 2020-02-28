@@ -1,0 +1,34 @@
+.why-us__toggle--reasons {
+    display: flex;
+    color: gray;
+    align-items: center;
+    justify-content: center;
+    flex: 0.33;
+    border-right: 1px solid gray
+}
+
+.why-us__toggle--reasons label:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.black {
+    color: black;
+}
+
+.why-us__toggle--reasons:last-of-type {
+    border-right: none;
+}
+
+.why-us__toggle--reasons {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+@media(min-width: 40rem) and (min-height: 400px) {
+    .why-us__toggle--reasons {
+        display: list-item;
+        flex: 0.3;
+        border-right: none
+    }
+}

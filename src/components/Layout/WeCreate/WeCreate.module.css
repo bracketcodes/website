@@ -1,0 +1,57 @@
+.we-build {
+    height: 20rem;
+    width: 100%;
+    padding-top: 1.5rem
+}
+
+.we-create__article {
+    margin: auto;
+    width: 90%;
+    height: 80%;
+}
+
+.we-create__article article{
+    line-height: 1.5;
+    font-size: 1.5rem;
+}
+
+.we-create__article--first b {
+    font-size: 3rem;
+}
+
+.we-create__image {
+    display: none;
+}
+
+@media(min-width: 40rem) and (min-height: 400px) {
+    .we-build {
+        height: 30rem;
+        align-items: center;
+        display: flex;
+        padding: 2rem
+    }
+    
+    .we-create__article {
+        margin: 0;
+        flex: 0.5;
+    }
+    
+    article {
+        font-size: 2rem;
+        width: 70%;
+        margin: auto;
+    }
+
+    .we-create__image {
+        display: block;
+        flex: 0.5;
+        height: 100%;
+        width: 100%;
+        opacity: 0.5;
+    } 
+
+    .we-create__image img {
+        height: 100%;
+        width: 100%;
+    }
+}
