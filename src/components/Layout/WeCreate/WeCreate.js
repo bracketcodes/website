@@ -16,7 +16,7 @@ const WeCreate = (props) => {
                 </article>
             </div>
             <div className={styles['we-create__image']}>
-                <img src={require('../../../assets/brain_tree.jpg')}/>
+                <img src={require('../../../assets/undraw_dev_focus_b9xo.png')}/>
             </div>
         </div>
     )

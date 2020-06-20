@@ -5,7 +5,7 @@ import Expertise from './Expertise/Expertise'
 
 const WhatWeDo = (props) => {
 
-     let logo = '<>'
+    //  let logo = '<>'
      const expertiseList = ['Technology', 'Business', 'Math']
 
     return (
@@ -19,6 +19,7 @@ const WhatWeDo = (props) => {
                 <div className={styles['what-we-do__descriptors--dropout']}>
                 </div>
                 <div className={styles['what-we-do__descriptors--title']}>
+                    {/* <img src={require('../../../assets/data_sci.PNG')}/> */}
                     <div className={styles['descriptors__title']}>
                         {
                             expertiseList.map(
@@ -26,8 +27,7 @@ const WhatWeDo = (props) => {
                                     return (
                                         <Expertise
                                         key={expertise} 
-                                        expertise={expertise}
-                                        logo={logo}/>
+                                        expertise={expertise}/>
                                     )
                                 }
                             )
@@ -37,27 +37,11 @@ const WhatWeDo = (props) => {
                 <div data-aos="fade-up"  
                 data-aos-duration="2000"
                 className={styles['descriptors__article']}>
-                    {/* <p>we provide <b>services</b> in</p>
-                    <ul>
-                        <li>
-                            blockchain
-                        </li>
-                        <li>
-                            software product engineering
-                        </li>
-                        <li>
-                            digital commerce
-                        </li>
-                        <li>
-                            Machine Learning and Deep Learning
-                        </li>
-                    </ul> */}
                     <p>We’re a software consultancy solving complex 
                         problems with <b>technology, business, mathematics </b>
-                        and a little bit of creativity.We help our cliets
+                        and a little bit of creativity.We help our clients
                         to elevate their business through seamless digital
                         experience.</p>
-                    <p className={styles['services-link']}> our services include</p>
                 </div>
             </div>
         </div>

@@ -5,8 +5,8 @@ import { NavLink } from 'react-router-dom'
 
 const Navigation = (props) => {    
 
-    let navList = ['What we do', 'Why us', 'About us', 'Stay in touch']
-    let navIdList = ['#whatWeDo', '#whyUs', '#aboutUs', '#contactUs'] 
+    let navList = ['What we do', 'Our Services', 'Why us', 'About us', 'Stay in touch']
+    let navIdList = ['#whatWeDo', '#ourServices', '#whyUs', '#aboutUs', '#contactUs'] 
 
     return (
             <ul className={styles['main-nav__items']}>

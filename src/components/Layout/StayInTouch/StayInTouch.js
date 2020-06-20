@@ -13,10 +13,10 @@ const StayInTouch = (props) => {
             <div className={styles['stay_in_touch__article--container']}>
                 <ul data-aos="fade-right"  data-aos-duration="3000">
                     <li>
-                        Email : ******@***.com
+                        Email : bracketcodes@gmail.com
                     </li>
                     <li>
-                        Phone : +91 ********
+                        Phone : +91 9786535793 , +91 9790054083
                     </li>
                     <li>
                         Location : Chennai

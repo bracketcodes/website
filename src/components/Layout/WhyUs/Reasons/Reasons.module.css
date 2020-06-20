@@ -10,7 +10,7 @@
 }
 
 .consistency-background {
-    background-image: url('../../../../assets/consis.PNG');
+    background-image: url('../../../../assets/creativity_1.PNG');
 }
 
 .quality-background {
@@ -29,6 +29,7 @@
 
 .reason__article {
     display: flex;
+    font-weight: 200;
     flex-direction: column;
     justify-content: center;
     align-items: center;

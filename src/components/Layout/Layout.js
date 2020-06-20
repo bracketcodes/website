@@ -8,6 +8,8 @@ import WhyUs from './WhyUs/WhyUs'
 import WhatWeDo from './WhatWeDo/WhatWeDo'
 import AboutUs from './AboutUs/AboutUs'
 import StayInTouch from './StayInTouch/StayInTouch'
+import Contactus from './ContactUs/ContactUs'
+import OurServices from './OurServices/OurServices'
 
 import styles from './Layout.module.css'
 
@@ -16,9 +18,11 @@ const Layout = (props) => {
     <Aux>
         <Header/>
         <main>
+            <Contactus/>
             <Motto/>
             <WeCreate/>
             <WhatWeDo/>
+            <OurServices/>
             <WhyUs/>
             <AboutUs/>
             <StayInTouch/>

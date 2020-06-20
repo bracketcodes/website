@@ -5,8 +5,8 @@ import { NavLink } from 'react-router-dom'
 
 const MobileNav = (props) => {    
 
-    let navList = ['What We Do', 'Why us', 'About Us', 'Stay In Touch']
-    let navIdList = ['#whatWeDo', '#whyUs', '#aboutUs', '#contactUs'] 
+    let navList = ['What we do', 'Our Services', 'Why us', 'About us', 'Stay in touch']
+    let navIdList = ['#whatWeDo', '#ourServices', '#whyUs', '#aboutUs', '#contactUs'] 
     let mobileNavContainerClassNames = [styles['mobile-nav__container']]
     
     if (props.isMobileNav == false) {

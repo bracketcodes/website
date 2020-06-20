@@ -12,6 +12,7 @@
 
 .main-nav__item a {
     color: darkgray;
+    font-size: 0.8rem;
     text-decoration: none;
 }
 
@@ -22,5 +23,6 @@
 @media(min-width: 40rem) and (min-height: 400px) {
     .main-nav__items {
         display: flex;
+        align-items: center;
     }
 }

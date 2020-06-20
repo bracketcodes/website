@@ -1,38 +1,66 @@
 .motto {
-    height: 30rem;
+    height: 20rem;
     padding-top: 3rem;
-    background-color: black;
+    /* background: url('../../../assets/motto.jpeg'); */
+    background-size: cover;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
-    /* position: relative; */
+    position: relative;
 }
 
-.motto h1 {
-    color: white;
-    font-size: 3rem;
+.motto img{
+    height: 100%;
+    width: 100%;
+}
+
+.quote {
+    height:100%; 
+    width: 100%; 
+    background-color: transparent; 
+    position: absolute; 
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    padding-top: 3rem;
+    top: 0; 
+    z-index: 5
+}
+
+.quote h1,
+.quote p {
+    color: #131313;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.quote p {
+    font-size: 1rem;
+    margin: 0;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.quote h1{
+    margin-top: 3rem;
+    justify-self: start;
 }
 
 .motto img {
-    display: block;
-    /* position: absolute; */
-    bottom: 0;
-    height: 40%;
-    width: 90%;
+    height: 100%;
+    width: 100%;
+    filter: grayscale(50%);
 }
 
 @media(min-width:40rem) and (min-height: 400px) {
     .motto {
-        height:40rem
+        height:25rem
     }
 
-    .motto img {
-        max-height: 25rem;
-        max-width: 40rem;
-        height: 45%;
-        width: 45%;
+    .motto p {
+        font-size: 1rem;
     }
+
+    .motto h1 {
+        font-size: 2.5rem;
+    }
+
 }

@@ -1,11 +1,12 @@
 .what-we-do {
-    height: 30rem;
+    height: 35rem;
     display: flex;
+    margin-top: 1rem;
     flex-direction: column;
 }
 
 .what-we-do__header {
-    flex: 0.2;
+    flex: 0.1;
     padding: 1rem;
     font-size: 1.5rem;
 }
@@ -16,42 +17,54 @@
 }
 
 .what-we-do__descriptors--container {
-    flex: 0.8;
+    flex: 0.9;
     height: 100%;
     width: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
+    flex-direction: column;
     position: relative;
 }
 
+.what-we-do__descriptors--title {
+    flex: 0.7;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
 .what-we-do__descriptors--dropout {
-    background-image: url('../../../assets/ml_2.png');
+    background-image: url('../../../assets/ml_1.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
+    background-size: contain;
     filter: grayscale(100%);
     position: absolute;
     z-index: -3;
     height: 100%;
     width: 100%;
-    opacity: 0.3;
+    opacity: 0.6;
 }
 
 .descriptors__title {
-    height: 75%;
+    height: 90%;
     width: 75%;
     position: relative;
 }
 
+.what-we-do__descriptors--title img {
+    height: 90%;
+    width: 80%;
+}
 
 .descriptors__article {
     display: flex;
-    flex: 1;
+    flex: 0.5;
     flex-direction: column;
     justify-content: flex-start;
+    text-align: justify;
     align-items: center;
-    font-size: 1.5rem;
     height: 100%;
 }
 
@@ -59,7 +72,7 @@
     width: 85%;
     margin: 0;
     padding: 0.2rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
     line-height: 1.5;
     /* animation: animae 2s  */
 }
@@ -85,7 +98,7 @@ p.services-link:hover {
         opacity: 0;
         transform: translateY(100px);
     }
-
+    
     100% {
         opacity: 1;
         transform: translateY(0);
@@ -113,15 +126,20 @@ p.services-link:hover {
 
 @media(min-width: 40rem) and (min-height: 400px) {
     .what-we-do {
-        height: 40rem;
+        height: 35rem;
     }
-
+    
+    .what-we-do__descriptors--container {
+        flex-direction: row;
+        align-items: center;
+    }
+    
     .what-we-do__header {
-        padding-left: 7rem;
+        padding-left: 3rem;
     }
     
     .what-we-do__header h1 {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     
     .what-we-do__descriptors--container {
@@ -152,6 +170,12 @@ p.services-link:hover {
 
     
     .descriptors__article p{
-        font-size: 2rem;
+        font-size: 1.3rem;
+    }
+}
+
+@media(max-width: 900px) and (min-height: 400px) {
+    .what-we-do__descriptors--title { 
+        flex: 0.9;
     }
 }
