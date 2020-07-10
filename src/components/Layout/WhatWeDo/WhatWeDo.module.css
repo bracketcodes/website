@@ -126,7 +126,7 @@ p.services-link:hover {
 
 @media(min-width: 40rem) and (min-height: 400px) {
     .what-we-do {
-        height: 35rem;
+        height: 40rem;
     }
     
     .what-we-do__descriptors--container {
@@ -160,6 +160,8 @@ p.services-link:hover {
     .descriptors__title {
         height: 80%;
         width: 60%;
+        min-width: 365px;
+        min-height: 380px;
         font-size: 1.2rem;
     }
     

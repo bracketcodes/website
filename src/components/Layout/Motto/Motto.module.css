@@ -15,6 +15,7 @@
 .quote {
     height:100%; 
     width: 100%; 
+    padding: 1rem;
     background-color: transparent; 
     position: absolute; 
     flex-direction: column;
@@ -27,7 +28,7 @@
 
 .quote h1,
 .quote p {
-    color: #131313;
+    color: black;
     text-align: center;
     font-size: 2rem;
 }

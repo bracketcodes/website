@@ -10,7 +10,7 @@ const OurServices = (props) => {
     let servicesRef = React.useRef()
     let services = [{title: 'Machine Learning', image: 'ml_4.PNG', duration: '1000', content: constants.SERVICE.ML},
                     {title: 'Deep Learning', image: 'ml_3.png', duration: '1500', content: constants.SERVICE.DEEP_LEARNING},
-                    {title: 'Qunatitative Analytics', image: 'analytics.png', duration: '2000', content: constants.SERVICE.ANALYTICS},
+                    {title: 'Quantitative Analytics', image: 'analytics.png', duration: '2000', content: constants.SERVICE.ANALYTICS},
                     {title: 'Web Application', image: 'web_app.png', duration: '2500', content: constants.SERVICE.APPLICATION}, 
                     {title: 'Web Designing', image: 'web_design.png', duration: '2750', content: constants.SERVICE.WEBDESIGN}, 
                     {title: 'Mobile Application', image: 'mobile_app.png', duration: '3000', content: constants.SERVICE.MOBILE_APP}] 

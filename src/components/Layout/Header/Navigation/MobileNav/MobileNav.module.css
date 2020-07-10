@@ -8,7 +8,7 @@
     align-items: center;
     justify-content: center;
     z-index: 40;
-    animation: nav-slide 2s;
+    animation: nav-slide 1s;
 }
 
 .mobile-nav__none {

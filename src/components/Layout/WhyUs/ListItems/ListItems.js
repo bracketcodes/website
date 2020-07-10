@@ -5,7 +5,7 @@ import ListItem from './ListItem/ListItem'
 
 const ListItems = (props) => {
 
-    let reasons = ['creativity', 'consistency', 'quality']
+    let reasons = ['Creativity', 'Consistency', 'Quality']
 
     return (
         <div className={styles['why-us__block']}>

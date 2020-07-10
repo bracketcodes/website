@@ -9,10 +9,10 @@ const Motto = () => {
             <div className={styles['quote']}>
                 <h1>Let's Create.</h1>
                 <p>
-                    Understand your customer needs and what your organization does.
+                    We understand our customer needs and what our organization does
                 </p>
                 <p>
-                    Focus on where these two meet.
+                    And we focus on where these two meet.
                 </p>
             </div>
                 {/* <img src={require('../../../assets/creativity_1.PNG')}/> */}

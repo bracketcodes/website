@@ -34,7 +34,7 @@ const ContactUs = (props) => {
                             </div>
                             <div className={styles['detail']}>
                                 <p>phone :</p> 
-                                <p>+91 9786535793, +91 9790054083, +91 9943060222</p>
+                                <p>+91 9790054083, +91 9789772974</p>
                             </div>
                         </div>
                     </div>: null
