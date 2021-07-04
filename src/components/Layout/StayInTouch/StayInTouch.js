@@ -16,7 +16,7 @@ const StayInTouch = (props) => {
                         Email : bracketcodes@gmail.com
                     </li>
                     <li>
-                        Phone : +91 9790054083, +91 9789772974
+                        Phone : +91 9790054083, +91 9786535793
                     </li>
                     <li>
                         Location : Chennai
