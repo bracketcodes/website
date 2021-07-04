@@ -2,14 +2,14 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import { BrowserRouter } from 'react-router-dom'
+import { HashRouter } from 'react-router-dom'
 import Layout from './components/Layout/Layout'
 
 const App = () => {
   return (<div>
-          <BrowserRouter>
+          <HashRouter>
             <Layout/>
-          </BrowserRouter>
+          </HashRouter>
           </div>
   )
 }
