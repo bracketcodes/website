@@ -43,7 +43,7 @@
     z-index: -3;
     height: 20rem;
     width: 100%;
-    opacity: 0.6;
+    opacity: 0.5;
 }
 
 .descriptors__title {
@@ -73,7 +73,7 @@
     padding: 0.2rem;
     line-height: 1.5;
     font-size: 1.5rem;
-    font-weight: 100;
+    font-weight: 300;
     /* margin-top: 2rem; */
     /* animation: animae 2s  */
 }
@@ -170,6 +170,7 @@ p.services-link:hover {
     
     .descriptors__article p{
         font-size: 2rem;
+        font-weight: 100;
     }
 }
 
