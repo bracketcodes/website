@@ -62,7 +62,7 @@
     width: 100%;
     flex-direction: column;
     justify-content: flex-start;
-    text-align: justify;
+    text-align: left;
     align-items: center;
     height: 25%;
 }
