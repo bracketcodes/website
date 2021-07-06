@@ -27,7 +27,7 @@ const Header = (props) => {
                 <div className={styles['main-header']}>
                     <div className={styles['toggle-button-logo__container']}>
                         <ToggleButton click={toggleMobileNav}/>
-                        <img src={require('../../../assets/logo.png')} alt=''/>
+                        <img src={require('../../../assets/BC.svg')} alt=''/>
                     </div>
                     <Navigation/>
                 </div>

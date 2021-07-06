@@ -15,13 +15,11 @@
 .quote {
     height:100%; 
     width: 100%; 
-    padding: 1rem;
     background-color: transparent; 
-    position: absolute; 
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     display: flex;
-    padding-top: 3rem;
     top: 0; 
     z-index: 5;
     top: 20%
@@ -30,7 +28,8 @@
 .quote h1 {
     color: white;
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+    font-weight: 300;
 }
 
 .quote p {
@@ -51,9 +50,8 @@
 }
 
 .motto__logo {
-    height: 40px; 
-    width: 200px;
-    margin-top: 30px
+    height: 70px; 
+    width: 250px;
 }
 
 @media(min-width:40rem) and (min-height: 400px) {

@@ -13,7 +13,7 @@ const Motto = () => {
                     <img src={require('../../../assets/BC.svg')}/>
                 </div>
                 <div data-aos="fade-left"  data-aos-duration="1000">
-                    <h1>Let's Create.</h1>
+                    <h1>Let's Create</h1>
                 </div>
             </div>
                 {/* <img src={require('../../../assets/creativity_1.PNG')}/> */}
