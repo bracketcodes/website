@@ -1,5 +1,5 @@
 .what-we-do {
-    height: 35rem;
+    height: auto;
     display: flex;
     margin-top: 1rem;
     flex-direction: column;
@@ -20,7 +20,6 @@
     flex: 0.9;
     height: 100%;
     width: 100%;
-    display: flex;
     justify-content: center;
     flex-direction: column;
     position: relative;
@@ -35,14 +34,14 @@
 
 .what-we-do__descriptors--dropout {
     background-image: url('../../../assets/ml_1.png');
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
     background-size: contain;
     filter: grayscale(100%);
     position: absolute;
     z-index: -3;
-    height: 100%;
+    height: 20rem;
     width: 100%;
     opacity: 0.6;
 }
@@ -60,20 +59,22 @@
 
 .descriptors__article {
     display: flex;
-    flex: 0.5;
+    width: 100%;
     flex-direction: column;
     justify-content: flex-start;
     text-align: justify;
     align-items: center;
-    height: 100%;
+    height: 25%;
 }
 
 .descriptors__article p {
     width: 85%;
     margin: 0;
     padding: 0.2rem;
-    font-size: 1rem;
     line-height: 1.5;
+    font-size: 1.5rem;
+    font-weight: 100;
+    /* margin-top: 2rem; */
     /* animation: animae 2s  */
 }
 
@@ -125,10 +126,6 @@ p.services-link:hover {
 }
 
 @media(min-width: 40rem) and (min-height: 400px) {
-    .what-we-do {
-        height: 40rem;
-    }
-    
     .what-we-do__descriptors--container {
         flex-direction: row;
         align-items: center;
@@ -172,12 +169,17 @@ p.services-link:hover {
 
     
     .descriptors__article p{
-        font-size: 1.3rem;
+        font-size: 2rem;
     }
 }
 
 @media(max-width: 900px) and (min-height: 400px) {
     .what-we-do__descriptors--title { 
         flex: 0.9;
+    }
+
+    .what-we-do__descriptors--dropout {
+        background-size: cover;
+        top: 15%
     }
 }

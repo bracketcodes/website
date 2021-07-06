@@ -1,5 +1,6 @@
 .our-services__container {
     position: relative;
+    margin-top: 2rem;
     /* height: 35rem; */
 }
 
@@ -10,7 +11,7 @@
 }
 
 .our-services {
-    height: 30rem;
+    height: 40rem;
     /* width: 100%; */
     width: auto;
     padding: 3rem;

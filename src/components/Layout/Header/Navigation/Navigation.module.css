@@ -8,6 +8,7 @@
     margin: 1rem;
     color: white;
     list-style: none;
+    font-weight: 500;
 }
 
 .main-nav__item a {
@@ -20,7 +21,7 @@
     color: white
 }
 
-@media(min-width: 40rem) and (min-height: 400px) {
+@media(min-width: 45rem) and (min-height: 400px) {
     .main-nav__items {
         display: flex;
         align-items: center;

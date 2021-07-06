@@ -5,8 +5,7 @@ import Expertise from './Expertise/Expertise'
 
 const WhatWeDo = (props) => {
 
-    //  let logo = '<>'
-     const expertiseList = ['Technology', 'Business', 'Math']
+    const expertiseList = ['Technology', 'Business', 'Math']
 
     return (
         <div id='whatWeDo' className={styles['what-we-do']}>
@@ -18,30 +17,16 @@ const WhatWeDo = (props) => {
             <div className={styles['what-we-do__descriptors--container']}>
                 <div className={styles['what-we-do__descriptors--dropout']}>
                 </div>
-                <div className={styles['what-we-do__descriptors--title']}>
-                    {/* <img src={require('../../../assets/data_sci.PNG')}/> */}
-                    <div className={styles['descriptors__title']}>
-                        {
-                            expertiseList.map(
-                                (expertise) => {
-                                    return (
-                                        <Expertise
-                                        key={expertise} 
-                                        expertise={expertise}/>
-                                    )
-                                }
-                            )
-                        }   
-                    </div>
-                </div>
                 <div data-aos="fade-up"  
                 data-aos-duration="2000"
                 className={styles['descriptors__article']}>
-                    <p>We’re a software consultancy solving complex 
-                        problems with <b>technology, business, mathematics </b>
-                        and a little bit of creativity.We help our clients
+                    <p>
+                        We’re a software consultancy helping our clients
                         to elevate their business through seamless digital
-                        experience.</p>
+                        experience.We build tools and services that unchain people to 
+                        connect, collabarate and create. We understand our customer needs and what 
+                        our organization does and we focus on where these two meet.
+                    </p>
                 </div>
             </div>
         </div>

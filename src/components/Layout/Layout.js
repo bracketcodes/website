@@ -20,7 +20,6 @@ const Layout = (props) => {
         <main>
             <Contactus/>
             <Motto/>
-            <WeCreate/>
             <WhatWeDo/>
             <OurServices/>
             <WhyUs/>

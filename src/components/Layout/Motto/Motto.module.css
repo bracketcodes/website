@@ -1,10 +1,10 @@
 .motto {
     height: 20rem;
     padding-top: 3rem;
-    /* background: url('../../../assets/motto.jpeg'); */
     background-size: cover;
     width: 100%;
     position: relative;
+    background-color: #131313;
 }
 
 .motto img{
@@ -23,12 +23,13 @@
     display: flex;
     padding-top: 3rem;
     top: 0; 
-    z-index: 5
+    z-index: 5;
+    top: 20%
 }
 
 .quote h1,
 .quote p {
-    color: black;
+    color: white;
     text-align: center;
     font-size: 2rem;
 }
@@ -41,19 +42,28 @@
 }
 
 .quote h1{
-    margin-top: 3rem;
+    margin-top: 1rem;
     justify-self: start;
 }
 
 .motto img {
     height: 100%;
     width: 100%;
-    filter: grayscale(50%);
+}
+
+.motto__logo {
+    height: 40px; 
+    width: 200px;
+    margin-top: 30px
 }
 
 @media(min-width:40rem) and (min-height: 400px) {
     .motto {
         height:25rem
+    }
+
+    .motto__logo {
+        width: 400px
     }
 
     .motto p {
@@ -63,5 +73,4 @@
     .motto h1 {
         font-size: 2.5rem;
     }
-
 }

@@ -8,12 +8,11 @@ import * as constants from '../../../constants/constants'
 const OurServices = (props) => {
 
     let servicesRef = React.useRef()
-    let services = [{title: 'Machine Learning', image: 'ml_4.PNG', duration: '1000', content: constants.SERVICE.ML},
-                    {title: 'Deep Learning', image: 'ml_3.png', duration: '1500', content: constants.SERVICE.DEEP_LEARNING},
-                    // {title: 'Quantitative Analytics', image: 'analytics.png', duration: '2000', content: constants.SERVICE.ANALYTICS},
-                    {title: 'Web Application', image: 'web_app.png', duration: '2500', content: constants.SERVICE.APPLICATION}, 
-                    {title: 'Web Designing', image: 'web_design.png', duration: '2750', content: constants.SERVICE.WEBDESIGN}, 
-                    {title: 'Mobile Application', image: 'mobile_app.png', duration: '3000', content: constants.SERVICE.MOBILE_APP}] 
+    let services = [{title: 'Customer Experience', image: 'customer_experience.jpg', duration: '1000', content: constants.SERVICE.CUSTOMER_EXPERIENCE},
+                    {title: 'Data & ML', image: 'data_and_ml.jpg', duration: '1500', content: constants.SERVICE.DATA_AND_ML},
+                    {title: 'Application services', image: 'application_services.jpg', duration: '2000', content: constants.SERVICE.APPLICATION_SERVICES},
+                    {title: 'Mordenizing Applications', image: 'application_mordernization.JPG', duration: '2500', content: constants.SERVICE.MORDENIZING_APPLICATIONS}, 
+                 ] 
     
     const sideScroll = (element, direction) => {
         let scrollAmount = 0;
@@ -44,9 +43,9 @@ const OurServices = (props) => {
                     onClick={() => {sideScroll(servicesRef.current, 'right')}} 
                     className="fa fa-angle-left"></i>
                 </div>
-            <h1 className={styles['our-services__header']}>
+            {/* <h1 className={styles['our-services__header']}>
                 Our services
-            </h1>
+            </h1> */}
             <div
             ref={servicesRef} 
             className={styles['our-services__inner-container']}>
