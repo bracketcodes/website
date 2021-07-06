@@ -6,7 +6,7 @@ export const SERVICE = {
     CUSTOMER_EXPERIENCE: `Keep your focus on your customer to drive your application. Increase your
                           revenue stream by customer-centric approach.`,
     DATA_AND_ML: `Improve your business decisions by extracting insights from your data.
-                  Your data will tell you what you have to do next.`,
+                  Use your data as a guide on what you have to do next.`,
     ANALYTICS: `Analytics eliminates much of the guesswork from planning marketing campaigns, 
                 choosing what content to create, developing products and more.Plus, with 
                 modern analytics technology, you can continuously collect and analyze 
