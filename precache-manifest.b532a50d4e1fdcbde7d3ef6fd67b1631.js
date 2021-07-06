@@ -1,31 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cbd402e284bd425eaeb5802612df55b8",
+    "revision": "4d44a55bee53df3cf01612608d6ad53c",
     "url": "/index.html"
   },
   {
-    "revision": "5769bdde24b8b68f970a",
-    "url": "/static/css/main.4385875b.chunk.css"
+    "revision": "f42687ba56755e13a5b1",
+    "url": "/static/css/main.96ca76c7.chunk.css"
   },
   {
-    "revision": "68990973808cf8d6395e",
-    "url": "/static/js/2.e4e31101.chunk.js"
+    "revision": "f9f8130e4dc8624cbf60",
+    "url": "/static/js/2.80893417.chunk.js"
   },
   {
-    "revision": "e928fe768baa9832b5bc57eae021f30c",
-    "url": "/static/js/2.e4e31101.chunk.js.LICENSE"
+    "revision": "3b6df29e31e076a4208f0b48cfacdd93",
+    "url": "/static/js/2.80893417.chunk.js.LICENSE"
   },
   {
-    "revision": "5769bdde24b8b68f970a",
-    "url": "/static/js/main.560d0d27.chunk.js"
+    "revision": "f42687ba56755e13a5b1",
+    "url": "/static/js/main.b5cbc487.chunk.js"
   },
   {
     "revision": "0d385edd39cab6836464",
     "url": "/static/js/runtime-main.85e88611.js"
   },
   {
+    "revision": "c8119065429a78cf401b2f11fa6b7df2",
+    "url": "/static/media/BC.c8119065.svg"
+  },
+  {
     "revision": "f247bc4bfa6c38fc3235d545fa09b621",
     "url": "/static/media/analytics.f247bc4b.png"
+  },
+  {
+    "revision": "145ed36ae2fd919abdce18637f911913",
+    "url": "/static/media/application_mordernization.145ed36a.JPG"
+  },
+  {
+    "revision": "a04b53443b3628238e2b8eeafcd1791b",
+    "url": "/static/media/application_services.a04b5344.jpg"
   },
   {
     "revision": "94baddb551715f324c4edc18ba3fa0bf",
@@ -78,6 +90,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "65d9c6287c31de25c212377cfa3ab7a3",
     "url": "/static/media/creativity_1.65d9c628.PNG"
+  },
+  {
+    "revision": "981e37a9676588938c877bf2fa91a445",
+    "url": "/static/media/customer_experience.981e37a9.jpg"
+  },
+  {
+    "revision": "79987feb305c515ccb911c540ae0fdca",
+    "url": "/static/media/data.79987feb.htm"
+  },
+  {
+    "revision": "87b3b8e164b6e247cd8ff9ff4a4364b2",
+    "url": "/static/media/data.87b3b8e1.jpg"
+  },
+  {
+    "revision": "2593676ce9ed0a302244d38a88db3879",
+    "url": "/static/media/data_and_ml.2593676c.jpg"
   },
   {
     "revision": "468babe27ad9ba74764e702f25a21f15",
