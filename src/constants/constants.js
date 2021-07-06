@@ -3,7 +3,7 @@ export const SERVICE = {
         scalability and improving business operations for companies across the globe.
         ML can serve as a solution to a variety of business complexities problems, and predict 
         complex customer behaviors. `,
-    CUSTOMER_EXPERIENCE: `Keep your focus on your customer to drive your application. Increase your
+    CUSTOMER_EXPERIENCE: `Keep your focus on customer to drive your application. Increase your
                           revenue stream by customer-centric approach.`,
     DATA_AND_ML: `Improve your business decisions by extracting insights from your data.
                   Use your data as a guide on what you have to do next.`,
@@ -13,9 +13,9 @@ export const SERVICE = {
                 new data to update your understanding as conditions change and eventualy 
                 improve business decision.`,
     APPLICATION_SERVICES: `We provide end to end application development services from designing, 
-                           architecturing, developing, maintaing and enhancing based in current markert 
+                           architecturing, developing, maintaining and enhancing based on current markert 
                            situation.`,
-    MORDENIZING_APPLICATIONS: `Enhance you application, product by enhanching your application's
+    MORDENIZING_APPLICATIONS: `Enhance your application, product by advancing the application's
                                design, features and migrating to latest technology which ensures 
                                smooth customer experience.`,
     WEBDESIGN: `Web design impacts how your audience perceives your brand. 
