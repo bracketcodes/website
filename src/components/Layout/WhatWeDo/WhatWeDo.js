@@ -24,7 +24,7 @@ const WhatWeDo = (props) => {
                         We’re a software consultancy helping our clients
                         to elevate their business through seamless digital
                         experience.We build tools and services that unchain people to 
-                        connect, collabarate and create. We understand our customer needs and what 
+                        connect, collaborate and create. We understand our customer needs and what 
                         our organization does and we focus on where these two meet.
                     </p>
                 </div>
